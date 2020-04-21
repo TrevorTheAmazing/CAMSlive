@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CAMSlive.Web.Data;
 using CAMSlive.Web.Services;
 
 namespace CAMSlive.Web
@@ -33,7 +32,7 @@ namespace CAMSlive.Web
             {
                 client.BaseAddress = new Uri("https://localhost:44385/");//api/timecards
             });
-
+            services.AddSingleton<IRecordChangeNotificationService, RecordChangeNotificationService>();
             services.AddCors(o =>
                o.AddPolicy("Policy", builder =>
                {

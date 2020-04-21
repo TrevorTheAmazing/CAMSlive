@@ -13,12 +13,12 @@ namespace CAMSlive.Web.Services
     public class ChartService : IChartService
     {
         private HttpClient httpClient { get; }
-        private IJSRuntime jsRuntime { get; }
+        private IJSRuntime JSRuntime { get; }
 
         public ChartService(HttpClient httpClient, IJSRuntime jsRuntime)
         {
             this.httpClient = httpClient;
-            this.jsRuntime = jsRuntime;
+            this.JSRuntime = jsRuntime;
         }        
 
         public async Task<IEnumerable<Chart>> GetCharts()
@@ -54,7 +54,7 @@ namespace CAMSlive.Web.Services
         {
             if (chart != null)
             {
-                await jsRuntime.InvokeVoidAsync("RenderChart", chart.ChartId, chart.ChartOptions);
+                await JSRuntime.InvokeVoidAsync("RenderChart", chart.ChartId, chart.ChartOptions);
             }
         }
 
@@ -62,10 +62,10 @@ namespace CAMSlive.Web.Services
         {
             if (chart != null)
             {
-                //var tempOptions = JsonSerializer.Serialize(chart.ChartOptions);
+                var tempOptions = JsonSerializer.Serialize(chart.ChartOptions);
     
-                await jsRuntime.InvokeVoidAsync("UpdateOptions", chart.ChartId, chart.ChartOptions);
-                //await jsRuntime.InvokeVoidAsync("UpdateChart", chart.ChartId, tempOptions);
+                //await jsRuntime.InvokeVoidAsync("UpdateOptions", chart.ChartId, chart.ChartOptions);
+                await JSRuntime.InvokeVoidAsync("UpdateChart", chart.ChartId, tempOptions);
             }
 
             

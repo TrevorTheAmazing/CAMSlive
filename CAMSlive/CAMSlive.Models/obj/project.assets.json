@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
       "projectName": "CAMSlive.Models",
-      "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
+      "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
       "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive.Models\\obj\\",
+      "outputPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

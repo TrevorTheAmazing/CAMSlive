@@ -1,5 +1,6 @@
 ﻿@page "/timecards"
 @inherits TimecardsBase
+@implements IDisposable
 
 <h1>Timecards Dashboard</h1>
 
@@ -13,8 +14,7 @@
         @foreach (var chart in TimecardCharts)
         {
             <div class="container">
-                <Chart ChartId=@chart.ChartId 
-                       ChartOptions=@chart.ChartOptions></Chart>
+                <Chart ChartId=@chart.ChartId ChartOptions=@chart.ChartOptions></Chart>
             </div>
         }
     }

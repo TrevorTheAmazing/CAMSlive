@@ -19,7 +19,9 @@ namespace CAMSlive.Web.Shared
         public string ChartId { get; set; }
         [Parameter]
         public string ChartOptions { get; set; }
-  
+        [Parameter]
+        public EventCallback ChartHasChanged { get; set; }
+
         protected override void OnInitialized()
         {
             //base.OnInitialized();
