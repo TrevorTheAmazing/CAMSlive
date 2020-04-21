@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UxCtk+4sUgOB9mSt6aFV6Lf6Ua0RwGIpxNyVnb1ZVa/JwSYgS7Sfy4lC8W55ItDayfsgLosynD0hd1+LSEWtLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive.Web\\CAMSlive.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\Trevor\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

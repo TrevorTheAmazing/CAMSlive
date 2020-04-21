@@ -1,0 +1,22 @@
+﻿@page "/timecards"
+@inherits TimecardsBase
+
+<h1>Timecards Dashboard</h1>
+
+<div class="card-deck">
+    @if (TimecardCharts == null)
+    {
+        <div class="spinner"></div>
+    }
+    else
+    {
+        @foreach (var chart in TimecardCharts)
+        {
+            <div class="container">
+                <Chart ChartId=@chart.ChartId 
+                       ChartOptions=@chart.ChartOptions></Chart>
+            </div>
+        }
+    }
+
+</div>
