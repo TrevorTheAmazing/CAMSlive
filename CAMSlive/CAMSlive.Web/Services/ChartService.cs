@@ -54,6 +54,7 @@ namespace CAMSlive.Web.Services
         {
             if (chart != null)
             {
+                //await JSRuntime.InvokeVoidAsync("RenderChart", chart.ChartId, chart.ChartOptions);
                 await JSRuntime.InvokeVoidAsync("RenderChart", chart.ChartId, chart.ChartOptions);
             }
         }
@@ -62,10 +63,9 @@ namespace CAMSlive.Web.Services
         {
             if (chart != null)
             {
-                var tempOptions = JsonSerializer.Serialize(chart.ChartOptions);
-    
-                //await jsRuntime.InvokeVoidAsync("UpdateOptions", chart.ChartId, chart.ChartOptions);
-                await JSRuntime.InvokeVoidAsync("UpdateChart", chart.ChartId, tempOptions);
+                await JSRuntime.InvokeAsync<Task>("UpdateOptions", chart.ChartId, chart.ChartOptions);
+                //var tempOptions = JsonSerializer.Serialize(chart.ChartOptions);
+                //await JSRuntime.InvokeVoidAsync("UpdateChart", chart.ChartId, tempOptions);
             }
 
             
