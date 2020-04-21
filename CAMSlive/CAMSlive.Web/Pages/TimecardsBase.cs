@@ -70,7 +70,7 @@ namespace CAMSlive.Web.Pages
 
                     //base.StateHasChanged();
                 });
-                StateHasChanged();
+                //StateHasChanged();
 
             }
         }

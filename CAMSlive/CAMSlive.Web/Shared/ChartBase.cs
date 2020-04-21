@@ -48,7 +48,7 @@ namespace CAMSlive.Web.Shared
 
         protected override Task OnAfterRenderAsync(bool firstRender)
         {
-            StateHasChanged();
+            //StateHasChanged();
             return base.OnAfterRenderAsync(firstRender);
         }
     }
