@@ -63,12 +63,26 @@ namespace CAMSlive.Web.Services
         {
             if (chart != null)
             {
-                await JSRuntime.InvokeAsync<Task>("UpdateOptions", chart.ChartId, chart.ChartOptions);
+                //HttpRequestMessage httpRequestMessage = new HttpRequestMessage();
+                //httpRequestMessage.Method = new HttpMethod("GET");
+                //httpRequestMessage.RequestUri = new Uri("https://localhost:44341/api/timecards");
+                //httpRequestMessage.Content = new StringContent(JsonSerializer.Serialize(chart.ChartOptions));
+                //httpRequestMessage.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+
+                //var response = await httpClient.SendAsync(httpRequestMessage);
+
+                //var responseStatusCode = response.StatusCode;
+                //var responseBody = await response.Content.ReadAsStringAsync();
+
+                //if (responseStatusCode.ToString() == "OK")
+                //{
+                //    await JSRuntime.InvokeAsync<Task>("UpdateOptions", chart.ChartId, chart.ChartOptions);
+                //}
+
+                
                 //var tempOptions = JsonSerializer.Serialize(chart.ChartOptions);
                 //await JSRuntime.InvokeVoidAsync("UpdateChart", chart.ChartId, tempOptions);
-            }
-
-            
+            }            
         }
     }
 }

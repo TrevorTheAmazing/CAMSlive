@@ -15,6 +15,7 @@ namespace CAMSlive.Web.Shared
         public IJSRuntime JSRuntime { get; set; }
         [Inject]
         public IChartService ChartService { get; set; }
+        
         [Parameter]
         public string ChartId { get; set; }
         [Parameter]

@@ -27,10 +27,15 @@ namespace CAMSlive.Web.Pages
             //base.OnInitialized();
         }
 
+        public async Task GetCurrentCharts()
+        {
+            TimecardCharts = (await ChartService.GetCharts()).ToList();
+        }
+
         protected override async Task OnInitializedAsync()
         {
-            //LoadTimecardCharts();
-            TimecardCharts = (await ChartService.GetCharts()).ToList();
+            GetCurrentCharts();
+            //TimecardCharts = (await ChartService.GetCharts()).ToList();
             //return base.OnInitializedAsync();
         }
 
@@ -52,26 +57,17 @@ namespace CAMSlive.Web.Pages
             if (tempChart != null)
             {
                 var chartToUpdate = (await ChartService.GetChart(tempChart.ChartId));
-                
+
                 //DO I ALREADY HAVE NEW VALUES HERE?
                 //chartToUpdate.ChartOptions = args.NewChart.ChartOptions;
-                
+
                 //ChartService.UpdateChart(chartToUpdate.ChartId, chartToUpdate);
 
                 await InvokeAsync(() =>
                 {
                     ChartService.UpdateChart(chartToUpdate.ChartId, chartToUpdate);
-                    //    //this.OnChartUpdated(chartToUpdate);
-                    //    //ChartService.UpdateChart(chartToUpdate.ChartId, chartToUpdate);
-                    //    JSRuntime.InvokeVoidAsync("UpdateChart", chartToUpdate.ChartId, chartToUpdate.ChartOptions);
-                    //    //OnChartUpdated(chartToUpdate);
-                    //    //JSRuntime.InvokeVoidAsync("UpdateChart", chartToUpdate.ChartId, chartToUpdate.ChartOptions);                        
-                    //base.StateHasChanged();
 
-                    //base.StateHasChanged();
                 });
-                //StateHasChanged();
-
             }
         }
 
