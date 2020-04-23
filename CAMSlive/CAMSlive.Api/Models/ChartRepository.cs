@@ -23,16 +23,6 @@ namespace CAMSlive.Api.Models
         {
             return await appDbContext.TimecardCharts.FirstOrDefaultAsync(c => c.ChartId == chartId);
         }
-        
-        public Task<Chart> AddChart(Chart chart)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteChart(string chartId)
-        {
-            throw new NotImplementedException();
-        }
 
         public async Task<Chart> UpdateChart(Chart chart)
         {
@@ -45,12 +35,21 @@ namespace CAMSlive.Api.Models
                 result.ChartOptions = chart.ChartOptions;
 
                 await appDbContext.SaveChangesAsync();
-                //await appDbContext.TimecardCharts.Update(result);
 
                 return result;
             }
 
             return null;
+        }
+
+        public Task<Chart> AddChart(Chart chart)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteChart(string chartId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

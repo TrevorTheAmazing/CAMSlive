@@ -18,7 +18,7 @@ async function UpdateOptions(chartId, chartOptions) {
     var chart = document.getElementById(chartId);
 
     //render chart
-    //chart.updateOptions(JSON.parse(chartOptions), true);
+    //await chart.updateOptions(JSON.parse(chartOptions), true);
 
     await ApexCharts.exec(chartId, 'updateOptions', (JSON.parse(chartOptions), true));
 

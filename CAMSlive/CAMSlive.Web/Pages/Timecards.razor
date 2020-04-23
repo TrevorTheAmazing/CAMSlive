@@ -1,10 +1,9 @@
 ﻿@page "/timecards"
 @inherits TimecardsBase
-@implements IDisposable
 
 <h1>Timecards Dashboard</h1>
 
-<div class="card-deck">
+<div class="container card-deck">
     @if (TimecardCharts == null)
     {
         <div class="spinner"></div>
@@ -13,10 +12,10 @@
     {
         @foreach (var chart in TimecardCharts)
         {
-            <div class="container">
-                <Chart ChartId=@chart.ChartId ChartOptions=@chart.ChartOptions></Chart>
+            <div class="card container">
+                <div class="card-header">@chart.ChartId</div>
+                <Chart ChartId="@chart.ChartId" @key=@chart.ChartId ChartOptions="@chart.ChartOptions"></Chart>
             </div>
         }
     }
-
 </div>

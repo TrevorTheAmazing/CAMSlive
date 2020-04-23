@@ -24,65 +24,28 @@ namespace CAMSlive.Web.Services
         public async Task<IEnumerable<Chart>> GetCharts()
         {
             return await httpClient.GetJsonAsync<Chart[]>("api/timecards");
-            //throw new NotImplementedException();
         }
 
         public async Task<Chart> GetChart(string id)
         {
-            //throw new NotImplementedException();
             return await httpClient.GetJsonAsync<Chart>($"api/timecards/{id}");
         }
 
-        //public async Task<Chart> UpdateChart(string chartId, Chart chartToUpdate)
-        public async Task UpdateChart(string chartId, Chart chartToUpdate)
-        {
-            //dont need to do this, already have the new values?
-            //var result = await httpClient.GetJsonAsync<Chart>($"api/timecards/{chartId}");
 
-            if (chartToUpdate != null)
+
+        //public async Task RenderChart(Chart chart)
+        public async Task RenderChart(string chartId, Chart chartToRender, bool firstRender)
+        {
+            if (firstRender)
             {
-                //dont update the database... we are here because it has already been updated
-                //await httpClient.PutJsonAsync<Chart>($"api/timecards/{result.ChartId}", result);//use chartId instead?
-                await UpdateOptions(chartToUpdate);
-                //return result;
+                await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
             }
-
-            //return null;
-        }
-
-        public async Task RenderChart(Chart chart)
-        {
-            if (chart != null)
+            else
             {
-                //await JSRuntime.InvokeVoidAsync("RenderChart", chart.ChartId, chart.ChartOptions);
-                await JSRuntime.InvokeVoidAsync("RenderChart", chart.ChartId, chart.ChartOptions);
+                //await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
+                //JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
+                await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
             }
-        }
-
-        public async Task UpdateOptions(Chart chart)
-        {
-            if (chart != null)
-            {
-                //HttpRequestMessage httpRequestMessage = new HttpRequestMessage();
-                //httpRequestMessage.Method = new HttpMethod("GET");
-                //httpRequestMessage.RequestUri = new Uri("https://localhost:44341/api/timecards");
-                //httpRequestMessage.Content = new StringContent(JsonSerializer.Serialize(chart.ChartOptions));
-                //httpRequestMessage.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-
-                //var response = await httpClient.SendAsync(httpRequestMessage);
-
-                //var responseStatusCode = response.StatusCode;
-                //var responseBody = await response.Content.ReadAsStringAsync();
-
-                //if (responseStatusCode.ToString() == "OK")
-                //{
-                //    await JSRuntime.InvokeAsync<Task>("UpdateOptions", chart.ChartId, chart.ChartOptions);
-                //}
-
-                
-                //var tempOptions = JsonSerializer.Serialize(chart.ChartOptions);
-                //await JSRuntime.InvokeVoidAsync("UpdateChart", chart.ChartId, tempOptions);
-            }            
         }
     }
 }

@@ -54,7 +54,6 @@ namespace CAMSlive.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        //public async Task<ActionResult<Chart>> UpdateChart(string id, Chart chart)
         public async Task<ActionResult<Chart>> UpdateChart(string id, Chart chart)
         {
             try
@@ -70,12 +69,11 @@ namespace CAMSlive.Api.Controllers
                     return NotFound();
                 }
 
-                var result = (await chartRepository.UpdateChart(chart));
-                return Ok(result);
+                return await chartRepository.UpdateChart(chart);
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from teh database.");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error updating data in teh database.");
             }
         }
         ////public async Task<ActionResult<Chart>> UpdateChart(string id, Chart chart)

@@ -1,6 +1,5 @@
 ﻿@inherits ChartBase
-@inject IJSRuntime JSRuntime
 
-<div id="@ChartId"></div>
+<div id="@ChartId" @key="@ChartId">@ChildContent</div>
 
 
