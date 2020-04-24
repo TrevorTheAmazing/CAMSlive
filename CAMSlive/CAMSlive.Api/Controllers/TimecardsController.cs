@@ -20,6 +20,7 @@ namespace CAMSlive.Api.Controllers
             this.chartRepository = chartRepository;
         }
 
+
         [HttpGet]
         public async Task<ActionResult> GetCharts()
         {
@@ -76,11 +77,6 @@ namespace CAMSlive.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error updating data in teh database.");
             }
         }
-        ////public async Task<ActionResult<Chart>> UpdateChart(string id, Chart chart)
-        //public async Task<ActionResult> UpdateChart([FromBody]Chart chart)
-        //{
-           
-        //}
 
         [HttpPost]
         public async Task<ActionResult<Chart>> CreateChart(Chart chart)
@@ -103,5 +99,10 @@ namespace CAMSlive.Api.Controllers
             }
             //return Ok();
         }
+        
+        //public async Task<ActionResult> UpdateChart([FromBody]Chart chart)
+        //{
+
+        //}
     }
 }

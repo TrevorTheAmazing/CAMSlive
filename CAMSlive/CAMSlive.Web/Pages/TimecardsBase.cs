@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CAMSlive.Web.Pages
 {
-    public class TimecardsBase : ComponentBase//, IDisposable, IRecordChangeNotificationService
+    public class TimecardsBase : ComponentBase
     {
         [Inject]
         public IChartService ChartService { get; set; }
@@ -29,7 +29,7 @@ namespace CAMSlive.Web.Pages
                 foreach (var chart in TimecardCharts)
                 {
                     await ChartService.RenderChart(chart.ChartId, chart, true);
-                }
+                }                
             }
         }
     }

@@ -20,7 +20,10 @@ async function UpdateOptions(chartId, chartOptions) {
     //render chart
     //await chart.updateOptions(JSON.parse(chartOptions), true);
 
-    await ApexCharts.exec(chartId, 'updateOptions', (JSON.parse(chartOptions), true));
+    //await chart.
+
+    //await ApexCharts.exec(chartId, 'updateOptions', (JSON.parse(chartOptions), true));
+    await ApexCharts.exec(chartId, 'render', (JSON.parse(chartOptions), true));
 
     console.log('end of UpdateOptions()');
 }

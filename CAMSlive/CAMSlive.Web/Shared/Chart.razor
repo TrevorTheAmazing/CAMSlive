@@ -1,5 +1,6 @@
 ﻿@inherits ChartBase
 
-<div id="@ChartId" @key="@ChartId">@ChildContent</div>
+@*<div id="@ChartId" @key="@ChartId">@ChildContent</div>*@
+    <div id="@ChartId" @key="@ChartId" CascadingValue="@ChildContent">@ChildContent</div>
 
 

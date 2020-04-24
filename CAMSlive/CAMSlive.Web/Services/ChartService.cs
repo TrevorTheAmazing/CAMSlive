@@ -15,6 +15,7 @@ namespace CAMSlive.Web.Services
         private HttpClient httpClient { get; }
         private IJSRuntime JSRuntime { get; }
 
+
         public ChartService(HttpClient httpClient, IJSRuntime jsRuntime)
         {
             this.httpClient = httpClient;
@@ -31,9 +32,6 @@ namespace CAMSlive.Web.Services
             return await httpClient.GetJsonAsync<Chart>($"api/timecards/{id}");
         }
 
-
-
-        //public async Task RenderChart(Chart chart)
         public async Task RenderChart(string chartId, Chart chartToRender, bool firstRender)
         {
             if (firstRender)
@@ -42,9 +40,8 @@ namespace CAMSlive.Web.Services
             }
             else
             {
-                //await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
-                //JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
                 await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
+                //await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
             }
         }
     }

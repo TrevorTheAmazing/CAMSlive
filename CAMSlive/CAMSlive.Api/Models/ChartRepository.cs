@@ -26,7 +26,6 @@ namespace CAMSlive.Api.Models
 
         public async Task<Chart> UpdateChart(Chart chart)
         {
-            //throw new NotImplementedException();
             var result = await appDbContext.TimecardCharts
                     .FirstOrDefaultAsync(c => c.ChartId == chart.ChartId);
             if (result != null)
