@@ -21,31 +21,54 @@ namespace CAMSlive.Web.Shared
         public string ChartOptions { get; set; }
         [CascadingParameter]
         public RenderFragment ChildContent { get; set; }
-        
+        //[Parameter]
+
         public event RecordChangeDelegate OnChartRecordChanged;// { get; set; }
 
+        protected override void OnInitialized()
+        {
+            base.OnInitialized();
+        }
 
         protected override Task OnInitializedAsync()
         {
-            //this.ChartId = ChartId;
-            //this.ChartOptions = ChartOptions;
+            this.ChartId = ChartId;
+            this.ChartOptions = ChartOptions;
 
             this.TimecardRecChangeNotifyService.OnChartRecordChanged += this.ChangeChartRecord;
             return base.OnInitializedAsync();
+        }
+
+        protected override void OnAfterRender(bool firstRender)
+        {
+            base.OnAfterRender(firstRender);
         }
         protected override Task OnAfterRenderAsync(bool firstRender)
         {
             return base.OnAfterRenderAsync(firstRender);
         }
 
+        public override Task SetParametersAsync(ParameterView parameters)
+        {
+            return base.SetParametersAsync(parameters);
+        }
+        protected override Task OnParametersSetAsync()
+        {
+            return base.OnParametersSetAsync();
+        }
+
         public async void ChangeChartRecord(object sender, RecordChangeEventArgs args)
         {
-            var chartToUpdate = args.NewChart;
-            if (chartToUpdate != null)
+            //var chartToUpdate = args.NewChart;
+            //if (chartToUpdate != null)
+
+            if (args.NewChart != null)
             {
+                this.ChartOptions = args.NewChart.ChartOptions;
                 await InvokeAsync(() =>
                     {
-                        ChartService.RenderChart(chartToUpdate.ChartId, chartToUpdate, false);
+                        //ChartService.UpdateChart(chartToUpdate.ChartId, chartToUpdate, false);
+                        ChartService.UpdateChart(this.ChartId, this.ChartOptions);
                     });
             }
         }

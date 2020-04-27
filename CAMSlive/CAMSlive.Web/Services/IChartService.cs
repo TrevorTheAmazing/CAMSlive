@@ -10,6 +10,7 @@ namespace CAMSlive.Web.Services
     {
         Task <IEnumerable<Chart>> GetCharts();
         Task<Chart> GetChart(string id);
-        Task RenderChart(string chartId, Chart chartToUpdate, bool firstRender);        
+        Task RenderChart(string chartId, Chart chartToUpdate, bool firstRender);
+        Task UpdateChart(string chartId, string chartOptions);
     }
 }

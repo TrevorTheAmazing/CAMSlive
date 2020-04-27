@@ -22,7 +22,7 @@ namespace CAMSlive.Web.Services
         public RecordChangeNotificationService(IConfiguration configuration)
         {
             _configuration = configuration;
-            _notifier = new SqlTableDependency<Chart>(_configuration.GetConnectionString("CAMSliveSqlServer"), TableName, "", null, null, null, TableDependency.SqlClient.Base.Enums.DmlTriggerType.All, false, false);
+            _notifier = new SqlTableDependency<Chart>(_configuration.GetConnectionString("CAMSliveSqlServer"), TableName, "", null, null, null, TableDependency.SqlClient.Base.Enums.DmlTriggerType.All, false, true);
             _notifier.OnChanged += this.TableDependency_Changed;
             _notifier.Start();
         }

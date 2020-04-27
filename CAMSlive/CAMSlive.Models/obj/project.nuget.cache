@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ALuv08O11lZIAv9AGwcosSX19yNjTT8isaCLPy7k2g/8VPpdpjWMS7ZW9HE6403Mrcht495uQJVQDgFbquFSfg==",
+  "dgSpecHash": "6+901iZzUWgT1omt3zUpotcidqU4Ch4QQGxRzYw2dWmHPr5eOArnVKvkI/sdwCi2sR5WXj5mZOx/oZD7wbucAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
+  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Trevor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
