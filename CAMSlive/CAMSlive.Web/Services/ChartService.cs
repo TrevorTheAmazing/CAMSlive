@@ -40,14 +40,14 @@ namespace CAMSlive.Web.Services
             }
             else
             {
-                await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
-                //await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
+                //await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
+                await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
             }
         }
 
         public async Task UpdateChart(string chartId, string chartOptions)
         {
-            await JSRuntime.InvokeAsync<Task>("UpdateChart", chartId, chartOptions);
+            await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartOptions);
         }
     }
 }
