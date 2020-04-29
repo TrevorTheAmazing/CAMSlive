@@ -9,20 +9,27 @@ namespace CAMSlive.Api.Models
 {
     public class ChartRepository : IChartRepository
     {
+        //member variables
         private readonly AppDbContext appDbContext;
+
+        //constructor
         public ChartRepository(AppDbContext appDbContext)
         {
             this.appDbContext = appDbContext;
         }
+
+        //member methods
         public async Task<IEnumerable<Chart>> GetCharts()
         {
             return await appDbContext.TimecardCharts.ToListAsync();
         }
 
+
         public async Task<Chart> GetChart(string chartId)
         {
             return await appDbContext.TimecardCharts.FirstOrDefaultAsync(c => c.ChartId == chartId);
         }
+
 
         public async Task<Chart> UpdateChart(Chart chart)
         {

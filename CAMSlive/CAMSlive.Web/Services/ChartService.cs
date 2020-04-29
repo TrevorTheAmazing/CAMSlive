@@ -12,16 +12,18 @@ namespace CAMSlive.Web.Services
 {
     public class ChartService : IChartService
     {
+        //member variables
         private HttpClient httpClient { get; }
         private IJSRuntime JSRuntime { get; }
 
-
+        //constructor
         public ChartService(HttpClient httpClient, IJSRuntime jsRuntime)
         {
             this.httpClient = httpClient;
             this.JSRuntime = jsRuntime;
         }        
 
+        //member methods
         public async Task<IEnumerable<Chart>> GetCharts()
         {
             return await httpClient.GetJsonAsync<Chart[]>("api/timecards");
@@ -37,11 +39,6 @@ namespace CAMSlive.Web.Services
             if (firstRender)
             {
                 await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
-            }
-            else
-            {
-                //await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
-                await JSRuntime.InvokeAsync<Task>("UpdateOptions", chartId, chartToRender.ChartOptions);
             }
         }
 

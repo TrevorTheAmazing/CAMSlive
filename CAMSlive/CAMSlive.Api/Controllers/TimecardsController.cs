@@ -97,7 +97,6 @@ namespace CAMSlive.Api.Controllers
 
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from teh database.");
             }
-            //return Ok();
         }
         
         //public async Task<ActionResult> UpdateChart([FromBody]Chart chart)
