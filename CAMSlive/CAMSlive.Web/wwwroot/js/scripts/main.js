@@ -11,13 +11,21 @@ async function RenderChart(chartId, chartOptions) {
 
 async function UpdateOptions(chartId, chartOptions) {
 
-    let chart = document.getElementById(chartId);
+    //let chart = document.getElementById(chartId);
+
+    //let tempOptions = JSON.parse(chartOptions);
+
+    //let chartToUpdate = new ApexCharts(chart, tempOptions);
+
+    //await ApexCharts.exec(chart.id, "updateOptions", tempOptions, false, true);
+
+    let chart = window.ApexCharts.getChartByID(chartId);
 
     let tempOptions = JSON.parse(chartOptions);
 
-    let chartToUpdate = new ApexCharts(chart, tempOptions);
-
-    await ApexCharts.exec(chart.id, "updateOptions", tempOptions, false, true);
+    //chart.opts.series = tempOptions.series;
+    await chart.updateSeries(tempOptions.series);
+    //await ApexCharts.exec(chart.id, "updateOptions", tempOptions, false, true);
     
     console.log('end of UpdateOptions()');
 };

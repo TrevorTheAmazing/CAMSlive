@@ -10,16 +10,20 @@ using System.Threading.Tasks;
 
 namespace CAMSlive.Web.Pages
 {
-    public class TimecardsBase : ComponentBase
+    public class TimecardsBase : ComponentBase, IRecordChangeNotificationService, IDisposable
     {
+        public event RecordChangeDelegate OnChartRecordChanged;
+
         //member variables
-        [Inject]
-        public IChartService ChartService { get; set; }
+        [Inject]public IChartService ChartService { get; set; }
+        [Inject]private IRecordChangeNotificationService TimecardRecChangeNotifyService { get; set; }
         public IEnumerable<Chart> TimecardCharts { get; set; }
+        private Chart chartToUpdate = new Chart();
         
         //lifecycle methods
         protected override async Task OnInitializedAsync()
         {
+            this.TimecardRecChangeNotifyService.OnChartRecordChanged += this.ChangeChartRecord;
             TimecardCharts = (await ChartService.GetCharts()).ToList();
         }
 
@@ -32,6 +36,26 @@ namespace CAMSlive.Web.Pages
                     await ChartService.RenderChart(chart.ChartId, chart, true);
                 }                
             }
+        }
+
+        //member methods
+        public async void ChangeChartRecord(object sender, RecordChangeEventArgs args)
+        {
+            if (args.NewChart != null)
+            {
+                chartToUpdate = await ChartService.GetChart(args.NewChart.ChartId);
+                chartToUpdate.ChartOptions = args.NewChart.ChartOptions;
+                await InvokeAsync(() =>
+                {
+                    ChartService.UpdateChart(chartToUpdate.ChartId, chartToUpdate.ChartOptions);
+                });
+            }
+        }
+
+        public void Dispose()
+        {
+            this.TimecardRecChangeNotifyService.OnChartRecordChanged -= this.ChangeChartRecord;
+            Dispose();
         }
     }
 }

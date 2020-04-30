@@ -36,10 +36,10 @@ namespace CAMSlive.Web.Services
 
         public async Task RenderChart(string chartId, Chart chartToRender, bool firstRender)
         {
-            if (firstRender)
-            {
-                await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
-            }
+            //if (firstRender)
+            //{
+             await JSRuntime.InvokeAsync<Task>("RenderChart", chartId, chartToRender.ChartOptions);
+            //}
         }
 
         public async Task UpdateChart(string chartId, string chartOptions)
