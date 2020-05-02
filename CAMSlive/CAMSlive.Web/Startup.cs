@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CAMSlive.Web.Services;
+using Serilog;
 
 namespace CAMSlive.Web
 {
@@ -56,6 +57,9 @@ namespace CAMSlive.Web
                 app.UseHsts();
             }
 
+            //Serilog
+            app.UseSerilogRequestLogging();
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -66,6 +70,10 @@ namespace CAMSlive.Web
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapBlazorHub();
+                //!//
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapFallbackToPage("/_Host");
             });
         }

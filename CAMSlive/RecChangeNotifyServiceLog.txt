@@ -1,0 +1,22 @@
+2020-05-01 17:11:47.335 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/StartMessage/Insert created.
+2020-05-01 17:11:47.342 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/StartMessage/Update created.
+2020-05-01 17:11:47.343 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/StartMessage/Delete created.
+2020-05-01 17:11:47.343 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/ChartId created.
+2020-05-01 17:11:47.344 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/ChartId/old created.
+2020-05-01 17:11:47.344 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/ChartOptions created.
+2020-05-01 17:11:47.345 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/ChartOptions/old created.
+2020-05-01 17:11:47.345 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5/EndMessage created.
+2020-05-01 17:11:47.347 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Contract dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5 created.
+2020-05-01 17:11:47.352 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Queue dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5_Receiver created.
+2020-05-01 17:11:47.354 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Queue dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5_Sender created.
+2020-05-01 17:11:47.356 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Service broker dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5_Sender created.
+2020-05-01 17:11:47.357 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Service broker dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5_Receiver created.
+2020-05-01 17:11:47.415 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Procedure dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5 created.
+2020-05-01 17:11:47.422 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Conversation with handler 14e7bb82-098c-ea11-918c-d1ca6c7af16b started.
+2020-05-01 17:11:47.490 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Trigger dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5 created.
+2020-05-01 17:11:47.492 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Watch dog started.
+2020-05-01 17:11:47.498 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]All OK! Database objects created with naming dbo_TimecardCharts_c0c7a33a-cbce-4780-993f-156a9708bbd5.
+2020-05-01 17:11:47.499 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Waiting for receiving TimecardCharts's records change notifications.
+2020-05-01 17:11:47.506 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Get in WaitForNotifications.
+2020-05-01 17:11:47.511 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Connection opened.
+2020-05-01 17:11:47.511 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.

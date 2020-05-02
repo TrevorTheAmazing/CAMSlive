@@ -152,8 +152,6 @@ C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\b
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\CAMSlive.Models.dll
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\CAMSlive.Models.pdb
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.csprojAssemblyReference.cache
-C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.csproj.CoreCompileInputs.cache
-C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.AssemblyInfoInputs.cache
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.AssemblyInfo.cs
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.RazorTargetAssemblyInfo.cache
@@ -163,3 +161,17 @@ C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\o
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.dll
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.pdb
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.genruntimeconfig.cache
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.csproj.CoreCompileInputs.cache
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api\obj\Debug\netcoreapp3.1\CAMSlive.Api.MvcApplicationPartsAssemblyInfo.cache

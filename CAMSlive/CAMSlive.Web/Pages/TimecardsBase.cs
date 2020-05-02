@@ -55,7 +55,7 @@ namespace CAMSlive.Web.Pages
         public void Dispose()
         {
             this.TimecardRecChangeNotifyService.OnChartRecordChanged -= this.ChangeChartRecord;
-            Dispose();
+            //this.TimecardRecChangeNotifyService.Dispose();
         }
     }
 }

@@ -1,0 +1,12 @@
+https://www.c-sharpcorner.com/article/log-data-into-file-using-serilog-framework-in-blazor-server-app/
+
+Log.Information($"Counter button click: {DateTime.Now}");  
+
+
+
+https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency
+
+https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency/wiki/Use-case:-Get-errors
+
+https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency/wiki/Use-case:-Logging
+

@@ -1,6 +1,7 @@
 ﻿@page "/timecards"
 @inherits TimecardsBase
 
+
 <h1>Timecards Dashboard</h1>
 
 <div class="container">
@@ -12,7 +13,7 @@
     else
     {
         <div class="container card-deck card-columns d-flex" style="display: flex;">
-        
+
             @foreach (var chart in TimecardCharts)
             {
                 if ((chart.ChartOptions.IndexOf("bubble") > -1) || (chart.ChartOptions.IndexOf("bar") > -1) || (chart.ChartOptions.IndexOf("area") > -1))

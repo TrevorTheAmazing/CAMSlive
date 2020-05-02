@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace CAMSlive.Api
 {
@@ -52,6 +53,9 @@ namespace CAMSlive.Api
             app.UseCors("Policy");
 
             app.UseHttpsRedirection();
+
+            //Serilog
+            app.UseSerilogRequestLogging();
 
             app.UseRouting();
 
