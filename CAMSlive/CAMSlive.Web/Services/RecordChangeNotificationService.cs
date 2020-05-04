@@ -31,18 +31,18 @@ namespace CAMSlive.Web.Services
             //_notifier.OnError += this.TableDependency_OnError;
 
             _notifier.TraceLevel = TraceLevel.Verbose;
-            _notifier.TraceListener = new TextWriterTraceListener(File.Create("C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\RecChangeNotifyServiceLog.txt"));
+            _notifier.TraceListener = new TextWriterTraceListener(File.Create("C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\Logs\\RecChangeNotifyServiceTrace.txt"));
 
             //Serilog
             Log.Logger = new LoggerConfiguration()
             .Enrich.FromLogContext()
             .WriteTo.Debug()
-            .WriteTo.File(@"C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\SqlNotify.txt")
+            .WriteTo.File(@"C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\Logs\\RecordChangeNotificationService.txt")
             .CreateLogger();
 
             try
             {
-                Log.Information("Starting SqlNotify");
+                Log.Information("Starting RecordChangeNotificationService");
                 _notifier.Start();
             }
             catch (Exception ex)

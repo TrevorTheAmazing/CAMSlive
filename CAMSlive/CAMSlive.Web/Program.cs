@@ -24,7 +24,7 @@ namespace CAMSlive.Web
             //.WriteTo.File(@"C:\logs\log.txt
             //.WriteTo.Console()
             .WriteTo.Debug()
-            .WriteTo.File(@"C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\SerilogWeb.txt")
+            .WriteTo.File(@"C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\Logs\SerilogWeb.txt")
             .CreateLogger();
 
             try

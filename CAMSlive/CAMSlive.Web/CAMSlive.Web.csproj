@@ -14,4 +14,8 @@
     <ProjectReference Include="..\CAMSlive.Models\CAMSlive.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

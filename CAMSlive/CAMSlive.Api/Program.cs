@@ -22,7 +22,7 @@ namespace CAMSlive.Api
             //.WriteTo.File(@"C:\logs\log.txt
             //.WriteTo.Console()
             .WriteTo.Debug()
-            .WriteTo.File(@"C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\SerilogApi.txt")
+            .WriteTo.File(@"C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\Logs\SerilogApi.txt")
             .CreateLogger();
 
             try
