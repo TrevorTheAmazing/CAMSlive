@@ -6,3 +6,6 @@
 2020-05-03 21:40:34.039 -07:00 [INF] Starting RecordChangeNotificationService
 2020-05-03 21:42:45.746 -07:00 [INF] Starting RecordChangeNotificationService
 2020-05-03 21:43:23.714 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-04 21:08:03.869 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-04 21:11:51.149 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-04 23:05:07.098 -07:00 [INF] Starting RecordChangeNotificationService

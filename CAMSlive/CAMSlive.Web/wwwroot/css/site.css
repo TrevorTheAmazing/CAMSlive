@@ -28,15 +28,21 @@ app {
 
 .main {
     flex: 1;
+    background-image: url("../images/cascade.jpg");
+    background-position: center;
+    background-size: inherit;
 }
 
+
+
     .main .top-row {
-        background-color: #f7f7f7;
-        border-bottom: 1px solid #d6d5d5;
+        /*background-color: rgba(0,0,0,0.1);*/
+        background-color: linear-gradient(180deg, rgb(5, 39, 103) 0%, #d8e7ef 70%);
+        /*border-bottom: 1px solid #d6d5d5;*/
         justify-content: flex-end;
     }
 
-        .main .top-row > a, .main .top-row .btn-link {
+        .main .top-row > a, .main .top-row .btn-link {            
             white-space: nowrap;
             margin-left: 1.5rem;
         }
@@ -47,11 +53,14 @@ app {
         }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);*/
+    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #174c81 70%);*/
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #d8e7ef 70%);
 }
 
     .sidebar .top-row {
-        background-color: rgba(0,0,0,0.4);
+        /*background-color: rgba(0,0,0,0.4);*/
+        background-color: rgba(0,0,0,0.1);
     }
 
     .sidebar .navbar-brand {
@@ -140,6 +149,10 @@ app {
     }
 
 @media (max-width: 767.98px) {
+    /*collapse*/
+    .main {
+        /*background-image: none;*/
+    }
     .main .top-row:not(.auth) {
         display: none;
     }
@@ -154,6 +167,7 @@ app {
 }
 
 @media (min-width: 768px) {
+    /*normal*/
     app {
         flex-direction: row;
     }
