@@ -490,3 +490,675 @@ FROM [TimecardCharts] AS [t]
 2020-05-04 23:05:43.517 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
 2020-05-04 23:05:43.518 -07:00 [INF] HTTP GET /api/timecards responded 200 in 53.6381 ms
 2020-05-04 23:05:43.519 -07:00 [INF] Request finished in 57.8424ms 200 application/json; charset=utf-8
+2020-05-05 20:25:56.360 -07:00 [INF] Starting CAMSlive.Api
+2020-05-05 20:25:56.805 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-05 20:25:56.808 -07:00 [INF] Hosting environment: Development
+2020-05-05 20:25:56.809 -07:00 [INF] Content root path: C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api
+2020-05-05 20:25:56.824 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-05 20:25:56.859 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 20:25:56.889 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-05 20:25:57.433 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-05 20:25:58.009 -07:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-05 20:25:58.114 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-05 20:25:58.139 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 1244.3891ms
+2020-05-05 20:25:58.141 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 20:25:58.144 -07:00 [INF] HTTP GET /api/timecards responded 200 in 1311.0463 ms
+2020-05-05 20:25:58.151 -07:00 [INF] Request finished in 1331.0146ms 200 application/json; charset=utf-8
+2020-05-05 21:29:42.001 -07:00 [INF] Starting CAMSlive.Api
+2020-05-05 21:29:43.164 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-05 21:29:43.168 -07:00 [INF] Hosting environment: Development
+2020-05-05 21:29:43.171 -07:00 [INF] Content root path: C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api
+2020-05-05 21:29:43.192 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-05 21:29:43.256 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 21:29:43.306 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-05 21:29:44.035 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-05 21:29:44.789 -07:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-05 21:29:44.905 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-05 21:29:44.971 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 1652.1483ms
+2020-05-05 21:29:44.975 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 21:29:44.983 -07:00 [INF] HTTP GET /api/timecards responded 200 in 1774.1144 ms
+2020-05-05 21:29:44.996 -07:00 [INF] Request finished in 1809.219ms 200 application/json; charset=utf-8
+2020-05-05 22:00:33.926 -07:00 [INF] Starting CAMSlive.Api
+2020-05-05 22:00:34.283 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-05 22:00:34.287 -07:00 [INF] Hosting environment: Development
+2020-05-05 22:00:34.288 -07:00 [INF] Content root path: C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api
+2020-05-05 22:00:34.307 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-05 22:00:34.356 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 22:00:34.393 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-05 22:00:34.952 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-05 22:00:35.534 -07:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-05 22:00:35.614 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-05 22:00:35.637 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 1238.4363ms
+2020-05-05 22:00:35.638 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 22:00:35.640 -07:00 [INF] HTTP GET /api/timecards responded 200 in 1320.6593 ms
+2020-05-05 22:00:35.647 -07:00 [INF] Request finished in 1345.3929ms 200 application/json; charset=utf-8
+2020-05-05 23:07:30.525 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-05 23:07:30.607 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 23:07:30.610 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-05 23:07:30.756 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-05 23:07:30.831 -07:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-05 23:07:30.835 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-05 23:07:30.842 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 231.1343ms
+2020-05-05 23:07:30.843 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-05 23:07:30.844 -07:00 [INF] HTTP GET /api/timecards responded 200 in 314.4367 ms
+2020-05-05 23:07:30.845 -07:00 [INF] Request finished in 321.747ms 200 application/json; charset=utf-8
+2020-05-06 11:04:03.441 -07:00 [INF] Starting CAMSlive.Api
+2020-05-06 11:04:04.284 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-06 11:04:04.292 -07:00 [INF] Hosting environment: Development
+2020-05-06 11:04:04.295 -07:00 [INF] Content root path: C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api
+2020-05-06 11:04:04.320 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:04:04.422 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:04:04.493 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:04:05.696 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:04:06.850 -07:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:04:07.037 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:04:07.091 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 2585.1191ms
+2020-05-06 11:04:07.095 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:04:07.104 -07:00 [INF] HTTP GET /api/timecards responded 200 in 2766.8224 ms
+2020-05-06 11:04:07.121 -07:00 [INF] Request finished in 2809.0648ms 200 application/json; charset=utf-8
+2020-05-06 11:10:21.898 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:10:21.900 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:21.902 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:10:21.958 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:10:22.001 -07:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:10:22.007 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:10:22.013 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 109.4686ms
+2020-05-06 11:10:22.013 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:22.015 -07:00 [INF] HTTP GET /api/timecards responded 200 in 115.2298 ms
+2020-05-06 11:10:22.017 -07:00 [INF] Request finished in 119.4172ms 200 application/json; charset=utf-8
+2020-05-06 11:10:22.439 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:10:22.441 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:22.442 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:10:22.464 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:10:22.473 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:10:22.476 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:10:22.478 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 35.0241ms
+2020-05-06 11:10:22.479 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:22.479 -07:00 [INF] HTTP GET /api/timecards responded 200 in 38.2500 ms
+2020-05-06 11:10:22.480 -07:00 [INF] Request finished in 41.1785ms 200 application/json; charset=utf-8
+2020-05-06 11:10:44.377 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:10:44.379 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:44.381 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:10:44.384 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:10:44.391 -07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:10:44.394 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:10:44.395 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 14.5279ms
+2020-05-06 11:10:44.396 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:44.396 -07:00 [INF] HTTP GET /api/timecards responded 200 in 17.5658 ms
+2020-05-06 11:10:44.397 -07:00 [INF] Request finished in 20.309ms 200 application/json; charset=utf-8
+2020-05-06 11:10:44.739 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:10:44.743 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:44.748 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:10:44.756 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:10:44.776 -07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:10:44.791 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:10:44.795 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 45.2561ms
+2020-05-06 11:10:44.796 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:10:44.797 -07:00 [INF] HTTP GET /api/timecards responded 200 in 55.5768 ms
+2020-05-06 11:10:44.798 -07:00 [INF] Request finished in 63.921ms 200 application/json; charset=utf-8
+2020-05-06 11:16:29.479 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:16:29.481 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:16:29.482 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:16:29.485 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:16:29.493 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:16:29.496 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:16:29.497 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 15.1249ms
+2020-05-06 11:16:29.498 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:16:29.498 -07:00 [INF] HTTP GET /api/timecards responded 200 in 17.7770 ms
+2020-05-06 11:16:29.499 -07:00 [INF] Request finished in 20.4823ms 200 application/json; charset=utf-8
+2020-05-06 11:32:07.709 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:32:07.711 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:32:07.712 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:32:07.718 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:32:07.751 -07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:32:07.757 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:32:07.761 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 48.2364ms
+2020-05-06 11:32:07.762 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:32:07.763 -07:00 [INF] HTTP GET /api/timecards responded 200 in 52.1748 ms
+2020-05-06 11:32:07.764 -07:00 [INF] Request finished in 55.0056ms 200 application/json; charset=utf-8
+2020-05-06 11:35:29.992 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:35:29.993 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:29.994 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:35:29.996 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:35:30.000 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:35:30.002 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:35:30.003 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 8.9865ms
+2020-05-06 11:35:30.003 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:30.004 -07:00 [INF] HTTP GET /api/timecards responded 200 in 10.9432 ms
+2020-05-06 11:35:30.004 -07:00 [INF] Request finished in 12.1011ms 200 application/json; charset=utf-8
+2020-05-06 11:35:30.859 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:35:30.860 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:30.862 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:35:30.864 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:35:30.867 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:35:30.871 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:35:30.872 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 10.2765ms
+2020-05-06 11:35:30.873 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:30.873 -07:00 [INF] HTTP GET /api/timecards responded 200 in 13.0969 ms
+2020-05-06 11:35:30.874 -07:00 [INF] Request finished in 14.3597ms 200 application/json; charset=utf-8
+2020-05-06 11:35:51.258 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:35:51.261 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:51.263 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:35:51.268 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:35:51.279 -07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:35:51.284 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:35:51.287 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 23.5517ms
+2020-05-06 11:35:51.288 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:51.288 -07:00 [INF] HTTP GET /api/timecards responded 200 in 28.6592 ms
+2020-05-06 11:35:51.291 -07:00 [INF] Request finished in 33.2286ms 200 application/json; charset=utf-8
+2020-05-06 11:35:51.732 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:35:51.733 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:51.733 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:35:51.735 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:35:51.747 -07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:35:51.750 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:35:51.752 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 18.1867ms
+2020-05-06 11:35:51.752 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:35:51.752 -07:00 [INF] HTTP GET /api/timecards responded 200 in 19.7742 ms
+2020-05-06 11:35:51.753 -07:00 [INF] Request finished in 20.7636ms 200 application/json; charset=utf-8
+2020-05-06 11:36:13.327 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:36:13.333 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:36:13.335 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:36:13.341 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:36:13.367 -07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:36:13.372 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:36:13.374 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 38.8243ms
+2020-05-06 11:36:13.375 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:36:13.376 -07:00 [INF] HTTP GET /api/timecards responded 200 in 45.9549 ms
+2020-05-06 11:36:13.377 -07:00 [INF] Request finished in 53.8497ms 200 application/json; charset=utf-8
+2020-05-06 11:51:11.495 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:51:11.497 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:51:11.499 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:51:11.505 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:51:11.546 -07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:51:11.555 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:51:11.560 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 60.9625ms
+2020-05-06 11:51:11.561 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:51:11.562 -07:00 [INF] HTTP GET /api/timecards responded 200 in 65.0087 ms
+2020-05-06 11:51:11.563 -07:00 [INF] Request finished in 68.351ms 200 application/json; charset=utf-8
+2020-05-06 11:55:02.767 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:55:02.769 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:55:02.771 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:55:02.776 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:55:02.784 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:55:02.787 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:55:02.789 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 18.0461ms
+2020-05-06 11:55:02.790 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:55:02.791 -07:00 [INF] HTTP GET /api/timecards responded 200 in 21.7930 ms
+2020-05-06 11:55:02.792 -07:00 [INF] Request finished in 24.5953ms 200 application/json; charset=utf-8
+2020-05-06 11:55:03.108 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 11:55:03.109 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:55:03.109 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 11:55:03.111 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 11:55:03.114 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 11:55:03.115 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 11:55:03.116 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 6.2521ms
+2020-05-06 11:55:03.117 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 11:55:03.117 -07:00 [INF] HTTP GET /api/timecards responded 200 in 8.5755 ms
+2020-05-06 11:55:03.118 -07:00 [INF] Request finished in 9.8046ms 200 application/json; charset=utf-8
+2020-05-06 18:36:45.539 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 18:36:45.551 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 18:36:45.558 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 18:36:45.583 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 18:36:45.720 -07:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 18:36:45.729 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 18:36:45.736 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 178.1957ms
+2020-05-06 18:36:45.738 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 18:36:45.739 -07:00 [INF] HTTP GET /api/timecards responded 200 in 190.8609 ms
+2020-05-06 18:36:45.740 -07:00 [INF] Request finished in 204.9494ms 200 application/json; charset=utf-8
+2020-05-06 18:37:00.153 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 18:37:00.153 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 18:37:00.153 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 18:37:00.155 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 18:37:00.161 -07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 18:37:00.162 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 18:37:00.163 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 9.3965ms
+2020-05-06 18:37:00.163 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 18:37:00.163 -07:00 [INF] HTTP GET /api/timecards responded 200 in 10.4986 ms
+2020-05-06 18:37:00.164 -07:00 [INF] Request finished in 11.1374ms 200 application/json; charset=utf-8
+2020-05-06 18:37:27.069 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-06 18:37:27.069 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 18:37:27.070 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-06 18:37:27.071 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-06 18:37:27.078 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-06 18:37:27.079 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-06 18:37:27.079 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 9.2841ms
+2020-05-06 18:37:27.080 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-06 18:37:27.080 -07:00 [INF] HTTP GET /api/timecards responded 200 in 10.8166 ms
+2020-05-06 18:37:27.080 -07:00 [INF] Request finished in 11.7711ms 200 application/json; charset=utf-8
+2020-05-16 18:53:59.505 -07:00 [INF] Starting CAMSlive.Api
+2020-05-16 18:53:59.991 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-16 18:53:59.994 -07:00 [INF] Hosting environment: Development
+2020-05-16 18:53:59.995 -07:00 [INF] Content root path: C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api
+2020-05-16 18:54:00.007 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 18:54:00.037 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 18:54:00.081 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 18:54:00.648 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 18:54:01.253 -07:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 18:54:01.333 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 18:54:01.361 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 1273.2224ms
+2020-05-16 18:54:01.363 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 18:54:01.365 -07:00 [INF] HTTP GET /api/timecards responded 200 in 1349.4468 ms
+2020-05-16 18:54:01.371 -07:00 [INF] Request finished in 1368.7074ms 200 application/json; charset=utf-8
+2020-05-16 19:12:54.783 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:12:54.786 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:12:54.790 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:12:54.837 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:12:54.847 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:12:54.848 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:12:54.849 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 57.2316ms
+2020-05-16 19:12:54.849 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:12:54.849 -07:00 [INF] HTTP GET /api/timecards responded 200 in 64.0696 ms
+2020-05-16 19:12:54.849 -07:00 [INF] Request finished in 67.4007ms 200 application/json; charset=utf-8
+2020-05-16 19:18:19.789 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:18:19.791 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:18:19.791 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:18:19.803 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:18:19.808 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:18:19.810 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:18:19.810 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 18.668ms
+2020-05-16 19:18:19.811 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:18:19.811 -07:00 [INF] HTTP GET /api/timecards responded 200 in 20.6264 ms
+2020-05-16 19:18:19.811 -07:00 [INF] Request finished in 22.8872ms 200 application/json; charset=utf-8
+2020-05-16 19:18:20.150 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:18:20.152 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:18:20.153 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:18:20.155 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:18:20.160 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:18:20.162 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:18:20.163 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 9.8473ms
+2020-05-16 19:18:20.164 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:18:20.164 -07:00 [INF] HTTP GET /api/timecards responded 200 in 13.1204 ms
+2020-05-16 19:18:20.165 -07:00 [INF] Request finished in 15.6998ms 200 application/json; charset=utf-8
+2020-05-16 19:19:05.219 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:19:05.222 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:19:05.223 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:19:05.226 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:19:05.228 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:19:05.231 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:19:05.232 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 8.6944ms
+2020-05-16 19:19:05.233 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:19:05.233 -07:00 [INF] HTTP GET /api/timecards responded 200 in 12.2548 ms
+2020-05-16 19:19:05.233 -07:00 [INF] Request finished in 15.1895ms 200 application/json; charset=utf-8
+2020-05-16 19:19:05.466 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:19:05.467 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:19:05.468 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:19:05.473 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:19:05.482 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:19:05.485 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:19:05.488 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 19.5368ms
+2020-05-16 19:19:05.489 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:19:05.490 -07:00 [INF] HTTP GET /api/timecards responded 200 in 22.7047 ms
+2020-05-16 19:19:05.491 -07:00 [INF] Request finished in 24.6511ms 200 application/json; charset=utf-8
+2020-05-16 19:19:21.797 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:19:21.798 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:19:21.800 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:19:21.804 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:19:21.808 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:19:21.810 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:19:21.813 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 13.2214ms
+2020-05-16 19:19:21.814 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:19:21.814 -07:00 [INF] HTTP GET /api/timecards responded 200 in 15.8932 ms
+2020-05-16 19:19:21.815 -07:00 [INF] Request finished in 18.4717ms 200 application/json; charset=utf-8
+2020-05-16 19:31:04.942 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:04.942 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:04.943 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:04.946 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:04.990 -07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:04.992 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:04.992 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 49.4559ms
+2020-05-16 19:31:04.993 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:04.993 -07:00 [INF] HTTP GET /api/timecards responded 200 in 50.7873 ms
+2020-05-16 19:31:04.993 -07:00 [INF] Request finished in 51.7099ms 200 application/json; charset=utf-8
+2020-05-16 19:31:05.251 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:05.253 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:05.253 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:05.255 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:05.264 -07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:05.266 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:05.267 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 13.6569ms
+2020-05-16 19:31:05.268 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:05.269 -07:00 [INF] HTTP GET /api/timecards responded 200 in 17.0607 ms
+2020-05-16 19:31:05.270 -07:00 [INF] Request finished in 18.4647ms 200 application/json; charset=utf-8
+2020-05-16 19:31:11.273 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:11.274 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:11.275 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:11.277 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:11.280 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:11.282 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:11.283 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 8.0869ms
+2020-05-16 19:31:11.283 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:11.284 -07:00 [INF] HTTP GET /api/timecards responded 200 in 9.9417 ms
+2020-05-16 19:31:11.284 -07:00 [INF] Request finished in 11.1135ms 200 application/json; charset=utf-8
+2020-05-16 19:31:11.584 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:11.585 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:11.586 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:11.587 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:11.591 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:11.593 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:11.596 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 9.9422ms
+2020-05-16 19:31:11.596 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:11.597 -07:00 [INF] HTTP GET /api/timecards responded 200 in 11.9664 ms
+2020-05-16 19:31:11.597 -07:00 [INF] Request finished in 13.7661ms 200 application/json; charset=utf-8
+2020-05-16 19:31:36.980 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:36.981 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:36.982 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:36.983 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:37.054 -07:00 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:37.055 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:37.056 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 73.604ms
+2020-05-16 19:31:37.056 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:37.056 -07:00 [INF] HTTP GET /api/timecards responded 200 in 75.6374 ms
+2020-05-16 19:31:37.056 -07:00 [INF] Request finished in 77.0588ms 200 application/json; charset=utf-8
+2020-05-16 19:31:37.282 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:37.283 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:37.284 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:37.287 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:37.290 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:37.291 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:37.295 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 9.8351ms
+2020-05-16 19:31:37.295 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:37.295 -07:00 [INF] HTTP GET /api/timecards responded 200 in 12.6373 ms
+2020-05-16 19:31:37.296 -07:00 [INF] Request finished in 13.867ms 200 application/json; charset=utf-8
+2020-05-16 19:31:39.072 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:39.073 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:39.073 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:39.074 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:39.079 -07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:39.080 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:39.081 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 8.0174ms
+2020-05-16 19:31:39.081 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:39.083 -07:00 [INF] HTTP GET /api/timecards responded 200 in 10.3997 ms
+2020-05-16 19:31:39.083 -07:00 [INF] Request finished in 11.6662ms 200 application/json; charset=utf-8
+2020-05-16 19:31:39.286 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:39.287 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:39.288 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:39.290 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:39.299 -07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:39.301 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:39.303 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 14.5209ms
+2020-05-16 19:31:39.305 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:39.305 -07:00 [INF] HTTP GET /api/timecards responded 200 in 18.3020 ms
+2020-05-16 19:31:39.305 -07:00 [INF] Request finished in 19.2836ms 200 application/json; charset=utf-8
+2020-05-16 19:31:49.926 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:31:49.926 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:49.926 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:31:49.928 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:31:49.935 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:31:49.938 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:31:49.940 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 12.8413ms
+2020-05-16 19:31:49.940 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:31:49.941 -07:00 [INF] HTTP GET /api/timecards responded 200 in 14.6646 ms
+2020-05-16 19:31:49.941 -07:00 [INF] Request finished in 15.6529ms 200 application/json; charset=utf-8
+2020-05-16 19:32:09.997 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:32:09.997 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:32:09.998 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:32:09.999 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:32:10.000 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:32:10.001 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:32:10.002 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 3.7517ms
+2020-05-16 19:32:10.002 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:32:10.002 -07:00 [INF] HTTP GET /api/timecards responded 200 in 4.7955 ms
+2020-05-16 19:32:10.002 -07:00 [INF] Request finished in 5.4504ms 200 application/json; charset=utf-8
+2020-05-16 19:32:10.261 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:32:10.262 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:32:10.263 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:32:10.271 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:32:10.280 -07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:32:10.282 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:32:10.283 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 19.3921ms
+2020-05-16 19:32:10.283 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:32:10.283 -07:00 [INF] HTTP GET /api/timecards responded 200 in 21.8554 ms
+2020-05-16 19:32:10.284 -07:00 [INF] Request finished in 22.6834ms 200 application/json; charset=utf-8
+2020-05-16 19:43:22.269 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:43:22.270 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:22.271 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:43:22.272 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:43:22.385 -07:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:43:22.386 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:43:22.386 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 115.2754ms
+2020-05-16 19:43:22.386 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:22.387 -07:00 [INF] HTTP GET /api/timecards responded 200 in 116.6990 ms
+2020-05-16 19:43:22.387 -07:00 [INF] Request finished in 117.6497ms 200 application/json; charset=utf-8
+2020-05-16 19:43:22.646 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:43:22.648 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:22.649 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:43:22.651 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:43:22.656 -07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:43:22.658 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:43:22.659 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 10.1015ms
+2020-05-16 19:43:22.659 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:22.660 -07:00 [INF] HTTP GET /api/timecards responded 200 in 12.0677 ms
+2020-05-16 19:43:22.660 -07:00 [INF] Request finished in 13.6775ms 200 application/json; charset=utf-8
+2020-05-16 19:43:25.550 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:43:25.551 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:25.551 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:43:25.554 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:43:25.556 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:43:25.558 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:43:25.558 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 6.601ms
+2020-05-16 19:43:25.559 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:25.559 -07:00 [INF] HTTP GET /api/timecards responded 200 in 8.1255 ms
+2020-05-16 19:43:25.559 -07:00 [INF] Request finished in 9.0962ms 200 application/json; charset=utf-8
+2020-05-16 19:43:25.784 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:43:25.784 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:25.785 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:43:25.788 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:43:25.806 -07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:43:25.807 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:43:25.808 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 22.9558ms
+2020-05-16 19:43:25.808 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:25.808 -07:00 [INF] HTTP GET /api/timecards responded 200 in 23.9726 ms
+2020-05-16 19:43:25.808 -07:00 [INF] Request finished in 24.6018ms 200 application/json; charset=utf-8
+2020-05-16 19:43:33.239 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:43:33.241 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:33.241 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:43:33.243 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:43:33.245 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:43:33.248 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:43:33.250 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 7.8956ms
+2020-05-16 19:43:33.251 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:43:33.251 -07:00 [INF] HTTP GET /api/timecards responded 200 in 10.7193 ms
+2020-05-16 19:43:33.251 -07:00 [INF] Request finished in 14.6643ms 200 application/json; charset=utf-8
+2020-05-16 19:44:18.742 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:18.742 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:18.743 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:18.744 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:19.117 -07:00 [INF] Executed DbCommand (372ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:19.118 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:19.119 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 375.6842ms
+2020-05-16 19:44:19.119 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:19.119 -07:00 [INF] HTTP GET /api/timecards responded 200 in 377.2585 ms
+2020-05-16 19:44:19.120 -07:00 [INF] Request finished in 378.2008ms 200 application/json; charset=utf-8
+2020-05-16 19:44:19.426 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:19.427 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:19.427 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:19.430 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:19.584 -07:00 [INF] Executed DbCommand (153ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:19.585 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:19.586 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 158.8548ms
+2020-05-16 19:44:19.586 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:19.586 -07:00 [INF] HTTP GET /api/timecards responded 200 in 159.8955 ms
+2020-05-16 19:44:19.587 -07:00 [INF] Request finished in 160.6243ms 200 application/json; charset=utf-8
+2020-05-16 19:44:25.222 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:25.224 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:25.224 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:25.225 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:25.238 -07:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:25.239 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:25.240 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 15.4089ms
+2020-05-16 19:44:25.240 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:25.241 -07:00 [INF] HTTP GET /api/timecards responded 200 in 17.1463 ms
+2020-05-16 19:44:25.241 -07:00 [INF] Request finished in 18.9474ms 200 application/json; charset=utf-8
+2020-05-16 19:44:25.493 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:25.493 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:25.494 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:25.495 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:25.496 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:25.497 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:25.498 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 3.72ms
+2020-05-16 19:44:25.498 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:25.498 -07:00 [INF] HTTP GET /api/timecards responded 200 in 4.8639 ms
+2020-05-16 19:44:25.498 -07:00 [INF] Request finished in 5.6163ms 200 application/json; charset=utf-8
+2020-05-16 19:44:28.472 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:28.472 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:28.473 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:28.475 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:28.476 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:28.477 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:28.478 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 4.0343ms
+2020-05-16 19:44:28.478 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:28.478 -07:00 [INF] HTTP GET /api/timecards responded 200 in 5.9395 ms
+2020-05-16 19:44:28.478 -07:00 [INF] Request finished in 6.5114ms 200 application/json; charset=utf-8
+2020-05-16 19:44:28.680 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:28.681 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:28.681 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:28.683 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:28.685 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:28.686 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:28.687 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 5.7456ms
+2020-05-16 19:44:28.688 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:28.688 -07:00 [INF] HTTP GET /api/timecards responded 200 in 7.1903 ms
+2020-05-16 19:44:28.688 -07:00 [INF] Request finished in 7.9478ms 200 application/json; charset=utf-8
+2020-05-16 19:44:42.308 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:44:42.310 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:42.311 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:44:42.315 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:44:42.319 -07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:44:42.320 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:44:42.321 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 9.795ms
+2020-05-16 19:44:42.322 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:44:42.322 -07:00 [INF] HTTP GET /api/timecards responded 200 in 12.0960 ms
+2020-05-16 19:44:42.323 -07:00 [INF] Request finished in 15.4291ms 200 application/json; charset=utf-8
+2020-05-16 19:45:23.082 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-16 19:45:23.082 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:45:23.082 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-16 19:45:23.084 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-16 19:45:23.086 -07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-16 19:45:23.087 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-16 19:45:23.088 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 5.2653ms
+2020-05-16 19:45:23.088 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-16 19:45:23.088 -07:00 [INF] HTTP GET /api/timecards responded 200 in 6.0440 ms
+2020-05-16 19:45:23.088 -07:00 [INF] Request finished in 6.6373ms 200 application/json; charset=utf-8
+2020-05-17 20:57:28.156 -07:00 [INF] Starting CAMSlive.Api
+2020-05-17 20:57:28.654 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-17 20:57:28.657 -07:00 [INF] Hosting environment: Development
+2020-05-17 20:57:28.658 -07:00 [INF] Content root path: C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Api
+2020-05-17 20:57:28.668 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44385/api/timecards  
+2020-05-17 20:57:28.698 -07:00 [INF] Executing endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-17 20:57:28.728 -07:00 [INF] Route matched with {action = "GetCharts", controller = "Timecards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetCharts() on controller CAMSlive.Api.Controllers.TimecardsController (CAMSlive.Api).
+2020-05-17 20:57:29.316 -07:00 [INF] Entity Framework Core 3.1.3 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-17 20:57:29.929 -07:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ChartId], [t].[ChartOptions]
+FROM [TimecardCharts] AS [t]
+2020-05-17 20:57:30.009 -07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CAMSlive.Models.Chart, CAMSlive.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-05-17 20:57:30.033 -07:00 [INF] Executed action CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api) in 1298.3616ms
+2020-05-17 20:57:30.035 -07:00 [INF] Executed endpoint 'CAMSlive.Api.Controllers.TimecardsController.GetCharts (CAMSlive.Api)'
+2020-05-17 20:57:30.038 -07:00 [INF] HTTP GET /api/timecards responded 200 in 1362.8054 ms
+2020-05-17 20:57:30.046 -07:00 [INF] Request finished in 1381.2746ms 200 application/json; charset=utf-8

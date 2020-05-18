@@ -1,4 +1,4 @@
-﻿"use strict";
+﻿//"use strict";
 
 async function RenderChart(chartId, chartOptions) {
 
