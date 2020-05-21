@@ -2,19 +2,20 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /*overflow: hidden;*/
+    min-height: 100vh;
+}
 
+body {
     background-image: url("../images/cascade.jpg");
-    background-position: center;
+    background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
 a, .btn-link {
-    /*color: #0366d6;*/
     color: #ff6633;
 }
 
@@ -34,30 +35,15 @@ app {
     height: 3.5rem;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .main {
     flex: 1;
-    /*background-image: url("../images/cascade.jpg");
-    background-position: center;
-    background-size: inherit;*/
-
-    /*background-image: url("../images/cascade.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100%;*/
-
-
 }
 
 
     .main .top-row {
-        /*background-color: rgba(0,0,0,0.1);*/
-        background-color: linear-gradient(180deg, rgb(5, 39, 103) 0%, #d8e7ef 70%);
-        /*border-bottom: 1px solid #d6d5d5;*/
         justify-content: flex-end;
     }
 
@@ -72,13 +58,11 @@ app {
         }
 
 .sidebar {
-    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);*/
-    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #174c81 70%);*/
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #d8e7ef 70%);
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #174c81 17%, #d8e7ef 70%);
+    z-index: 1;
 }
 
     .sidebar .top-row {
-        /*background-color: rgba(0,0,0,0.4);*/
         background-color: rgba(0,0,0,0.1);
     }
 
@@ -119,9 +103,7 @@ app {
         }
 
             .sidebar .nav-item a.active {
-                background-color: rgba(255,255,255,0.25);
-                /*color: white;*/
-                color: #ff6633;
+                background-color: rgba(255,255,255,0.15);
             }
 
             .sidebar .nav-item a:hover {
@@ -129,13 +111,31 @@ app {
                 color: white;
             }
 
+#brand {
+    width: 200px;
+    height: 100%;
+}
 
 .content {
     padding-top: 1.1rem;
-    /*background-color: brown;*/
 }
 
+/***CLOUDS***/
+.banner .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
 
+    .banner .clouds img {
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+        animation: animate calc(8s * var(--i)) linear infinite;
+    }
 
 
 .navbar-toggler {
@@ -176,7 +176,7 @@ app {
 @media (max-width: 767.98px) {
     /*collapse*/
     .main {
-        /*background-image: none;*/
+        /*background-image: none;*/   
     }
     .main .top-row:not(.auth) {
         display: none;
@@ -190,41 +190,37 @@ app {
         margin-left: 0;
     }
 
-    .navbar-toggler {
+    .sidebar {
+        background-image: linear-gradient(145deg, rgba(255, 255, 255, 1) 15%, rgba(146, 250, 255, 0.4) 63%, rgba(44, 131, 241, 0.9) 90%);
+        display: inline-block;
+        z-index: 1;
+    }
 
+    .navbar-brand {
+        margin-right: 40%;
+    }
+
+    .navbar-toggler {
         background-color: rgba(155, 155, 155, 0.3);
+        position: fixed; 
+        right: 20px;
     }
 
     .sidebar .nav {
-        /*background-color: black;*/
         background-color: rgba(155,155,155,0.1);
     }
 
     .sidebar .nav-item a {
-        /*color: white;*/
-        /*color: #2f4862;*/
-        /*color: rgb(5, 39, 103);*/
-        /*color: #15416e;*/
-
-        /*background-color: rgba(255,255,255,0.25);*/
         color: #2f4862;
     }
 
         .sidebar .nav-item a:hover {
-            /*color: white;*/
             background-color: rgba(255,255,255,0.25);
             color: #15416e;
         }
 
         .sidebar .nav-item a.active {
-            /*background-color: rgba(255,255,255,0.25);
-        color: white;*/
             background-color: rgba(255,255,255,0.35);
-            /*color: #15416e;*/
-
-
-
-            /*color: #ff6633;*/
         }
 }
 
@@ -286,13 +282,53 @@ app {
 .container {
     margin: 70px auto;
     overflow: hidden;
-    width: 80%;
-    /*width: 90%;*/
+    width: 90%;
     text-align: center;
 }
 
-.card {
-    padding: 0;
-    opacity: 0.85;
+/* **ICY** */
+div .card {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    /* opacity: 0.95; */
 }
 
+    div .card:before {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        filter: blur(10px);
+        margin: -20px;
+    }
+
+.card {
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+div .card-body {
+    background-color: rgba(255, 255, 255, .45);
+}
+/* **END ICY** */
+
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}

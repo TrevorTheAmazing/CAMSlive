@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+eiJLG/UJdzvUWnnygljAlUUUME26w481NV6+Ygfsq1BeGF8qLkgfwNJFBdkbQQDVoVJoaMd6v8VMmffFo0riQ==",
+  "dgSpecHash": "2h3WiORYT/dLo09mMcl6TYr91kf1AWqM87s+zfp7/0KApqHkMvpgcVP/0AYhPdNnrTrODsnk2/lIMFoZNhm67Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
   "expectedPackageFiles": [
@@ -113,7 +113,8 @@
     "C:\\Users\\Trevor\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Trevor\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Trevor\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Trevor\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Trevor\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }
