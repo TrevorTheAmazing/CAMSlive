@@ -24,3 +24,12 @@
 2020-05-20 01:44:26.296 -07:00 [INF] Starting RecordChangeNotificationService
 2020-05-20 13:12:02.663 -07:00 [INF] Starting RecordChangeNotificationService
 2020-05-21 00:30:33.189 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 02:17:23.105 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 02:40:48.572 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 02:50:25.847 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 20:57:02.116 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 20:58:58.848 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 21:06:45.626 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 21:17:15.597 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-21 21:56:52.313 -07:00 [INF] Starting RecordChangeNotificationService
+2020-05-22 00:45:32.783 -07:00 [INF] Starting RecordChangeNotificationService

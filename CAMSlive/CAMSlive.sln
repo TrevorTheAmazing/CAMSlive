@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAMSlive.Web", "CAMSlive.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAMSlive.Models", "CAMSlive.Models\CAMSlive.Models.csproj", "{A65F27A9-89FD-4F26-B3A2-354A5172673D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAMSlive.Api", "CAMSlive.Api\CAMSlive.Api.csproj", "{CD95BD94-8129-4358-A7AD-6F49B45BF71F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAMSlive.Api", "CAMSlive.Api\CAMSlive.Api.csproj", "{CD95BD94-8129-4358-A7AD-6F49B45BF71F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

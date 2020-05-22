@@ -194,3 +194,7 @@ C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\o
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\IndexCard.razor.g.cs
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\Razor\Shared\IndexCard.razor.g.cs
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Loader.razor.g.cs
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\Razor\Shared\Loader.razor.g.cs
