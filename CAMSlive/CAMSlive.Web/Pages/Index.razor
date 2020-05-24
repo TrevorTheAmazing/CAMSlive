@@ -1,11 +1,32 @@
 ﻿@page "/"
 
-<div class="banner">
-    <div class="clouds">
-        <img src="../images/cloud1.png" style="--i:1;">
-        <img src="../images/cloud2.png" style="--i:2;">
-        <img src="../images/cloud3.png" style="--i:3;">
-        <img src="../images/cloud4.png" style="--i:4;">
-        <img src="../images/cloud5.png" style="--i:5;">
+    <div class="jumbotron-fluid">
+        <h1 class="display-3"><span id="cams">CAMS</span><span id="dash">dash</span></h1>
+        <p class="lead">Get a real-time bird's eye view of your data.</p>
+        <hr class="my-4">
+        @*<a class="btn btn-primary btn-lg" href="timecards" role="button">Check the charts!</a>*@
+        <NavLink class="btn-grad" @onclick="HandleClick">Check the charts!</NavLink>
     </div>
-</div>
+    
+
+    <div class="banner">
+
+
+        <div class="clouds">
+            <img src="../images/cloud1.png" style="--i:1;">
+            <img src="../images/cloud2.png" style="--i:2;">
+            <img src="../images/cloud3.png" style="--i:3;">
+            <img src="../images/cloud4.png" style="--i:4;">
+            <img src="../images/cloud5.png" style="--i:5;">
+        </div>
+    </div>
+
+@code {
+    @inject NavigationManager NavigationManager;
+
+    private void HandleClick()
+    {
+        NavigationManager.NavigateTo("timecards", true);
+    }
+
+}

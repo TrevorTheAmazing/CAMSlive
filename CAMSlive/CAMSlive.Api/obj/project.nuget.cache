@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2h3WiORYT/dLo09mMcl6TYr91kf1AWqM87s+zfp7/0KApqHkMvpgcVP/0AYhPdNnrTrODsnk2/lIMFoZNhm67Q==",
+  "dgSpecHash": "kftUFMIGKL1ym2SCPh+lLQn8ENgXSLxfXTnhHNHr66jUC7lgbVQO51ENO+ALv2ytPUYJyRc1l5WyXb3cPiHVhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
+  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

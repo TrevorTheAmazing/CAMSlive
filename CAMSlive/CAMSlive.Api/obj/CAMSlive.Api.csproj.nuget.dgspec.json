@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj": {}
+    "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj": {
+    "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
         "projectName": "CAMSlive.Api",
-        "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
+        "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\CAMSlive.Api.csproj",
         "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\obj\\",
+        "outputPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj": {
-                "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj"
+              "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj": {
+                "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj": {
+    "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
         "projectName": "CAMSlive.Models",
-        "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
+        "projectPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
         "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\obj\\",
+        "outputPath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

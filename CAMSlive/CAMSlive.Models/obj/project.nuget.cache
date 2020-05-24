@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9gFKS2+p/Mc7F1QcKxKKtAf3kxQ3qPPEmsLpYMzo40XMHe3wu17B/I2I7K6k9NLrI6Jc+JKE1hACLafS/vsjig==",
+  "dgSpecHash": "FNUaIKGriwnGvDG19GGNLDe/PfbOL5Lymrk44erzMwmE5zeNOaTjtngCNTAeV4/zQ3Kc9ifQgM1YODYqWRb0oQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
+  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Models\\CAMSlive.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.1.1\\microsoft.aspnetcore.hosting.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.1.1\\microsoft.aspnetcore.hosting.server.abstractions.2.1.1.nupkg.sha512",

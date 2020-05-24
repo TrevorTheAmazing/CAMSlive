@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zn4TF+eGFz8QoZO+/W5112Sx8It/3Xs0W7VoB77biArcSIYzCSfR+qbZaV40qlNcST32qeWlCc11c4L5BzHdzQ==",
+  "dgSpecHash": "HmofuanB8e7pPaTKInCzToxgoGwg5MgmcW4tXLgIl04oOgrh6B85bD1f/PHkgNFv/HEJPCOdEypFEJf+McdiLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Web\\CAMSlive.Web.csproj",
+  "projectFilePath": "C:\\Users\\Trevor\\Desktop\\fresh\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive\\CAMSlive.Web\\CAMSlive.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
     "C:\\Users\\Trevor\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
