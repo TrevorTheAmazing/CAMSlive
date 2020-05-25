@@ -3,39 +3,40 @@
 @layout MainLayout
 
 
-<h1>Timecards Dashboard</h1>
+    <h1>Timecards Dashboard</h1>
 
-<div class="container-fluid">
+    <div id="timecards" class="container">
 
-    @if (TimecardCharts == null)
-    {
-        <div class="spinner"></div>
-    }
-    else
-    {
-        <div class="container card-deck card-columns d-flex" style="display: flex; min-width: 100%;">
 
-            @foreach (var chart in TimecardCharts)
-            {
-                if ((chart.ChartOptions.IndexOf("bubble") > -1) || (chart.ChartOptions.IndexOf("bar") > -1) || (chart.ChartOptions.IndexOf("area") > -1))
+        @if (TimecardCharts == null)
+        {
+            <div class="spinner"></div>
+        }   
+        else
+        {
+            <div class="card-deck card-columns">
+
+                @foreach (var chart in TimecardCharts)
                 {
-                    <div class="card col-12" style="min-width:100%;">
-                        <div class="card-header">@chart.ChartId</div>
-                        <div class="card-body">
-                            <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>
+                    if ((chart.ChartOptions.IndexOf("bubble") > -1) || (chart.ChartOptions.IndexOf("bar") > -1) || (chart.ChartOptions.IndexOf("area") > -1))
+                    {
+                        <div class="card" >
+                            <div class="card-header">@chart.ChartId</div>
+                            <div class="card-body">
+                                <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>
+                            </div>
                         </div>
-                    </div>
-                }
-                else
-                {
-                    <div class="card col-6" style="max-width:50%;">
-                        <div class="card-header">@chart.ChartId</div>
-                        <div class="card-body">
-                            <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>
+                    }
+                    else
+                    {
+                        <div class="card" >
+                            <div class="card-header">@chart.ChartId</div>
+                            <div class="card-body">
+                                <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>
+                            </div>
                         </div>
-                    </div>
+                    }
                 }
-            }
-        </div>
-    }
-</div>
+            </div>
+        }
+    </div>
