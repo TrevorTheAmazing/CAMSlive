@@ -196,15 +196,15 @@ app {
 
 .main .content .container .cards {
     background-color: pink;
-    display: grid;
-    /*grid-template-rows: repeat(1, 100%);*/
-    /*grid-auto-column*/
-/*    grid-auto-rows: auto;*/
+    display: flex;
+    flex-flow: wrap;
 }
 
-.main .content .container .cards .card {
-    background-color: brown;
-}
+    .main .content .container .cards .card {
+        background-color: brown;
+        align-items: stretch;
+        flex-basis: 100%;
+    }
 
 
 

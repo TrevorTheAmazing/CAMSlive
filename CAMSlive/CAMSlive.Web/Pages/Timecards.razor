@@ -20,7 +20,7 @@
                 {
                     if ((chart.ChartOptions.IndexOf("bubble") > -1) || (chart.ChartOptions.IndexOf("bar") > -1) || (chart.ChartOptions.IndexOf("area") > -1))
                     {
-                        <div class="card w-100 col-sm-12">
+                        <div class="card">
                             <div class="card-header">@chart.ChartId</div>
                             <div class="card-body">
                                 <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>
@@ -29,7 +29,7 @@
                     }
                     else
                     {
-                        <div class="card w-50 col-sm-6" >
+                        <div class="card" style="flex-basis: 50%;" >
                             <div class="card-header">@chart.ChartId</div>
                             <div class="card-body">
                                 <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>
