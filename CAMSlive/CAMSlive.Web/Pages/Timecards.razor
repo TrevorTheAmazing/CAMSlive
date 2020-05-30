@@ -2,16 +2,24 @@
 @inherits TimecardsBase
 @layout MainLayout
 
+    <style>
+        body {
+            background-color: #d8e7ef;
+        }
+    </style>
 
-    <h1>Timecards Dashboard</h1>
-
+    <h1 style="color: #15416e; ">Timecards Dashboard</h1>
+    <hr />
     <div id="timecards" class="container">
 
 
         @if (TimecardCharts == null)
         {
+        <div class="container">
             <div class="spinner"></div>
-        }   
+        </div>
+            
+        }
         else
         {
             <div class="cards">
@@ -29,7 +37,7 @@
                     }
                     else
                     {
-                        <div class="card" style="flex-basis: 50%;" >
+                        <div class="card split" >
                             <div class="card-header">@chart.ChartId</div>
                             <div class="card-body">
                                 <Chart ChartId="@chart.ChartId" ChartOptions="@chart.ChartOptions"></Chart>

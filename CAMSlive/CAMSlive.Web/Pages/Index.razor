@@ -1,6 +1,15 @@
 ﻿@page "/"
 
-  
+    <style>
+        body {
+            background-image: url("../images/cascade.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+
 
     <div class="banner">
 
@@ -14,12 +23,13 @@
         </div>
     </div>
 
-@code {
-    @inject NavigationManager NavigationManager;
 
-    private void HandleClick()
-    {
-        NavigationManager.NavigateTo("timecards", true);
+    @code {
+        @inject NavigationManager NavigationManager;
+
+        private void HandleClick()
+        {
+            NavigationManager.NavigateTo("timecards", true);
+        }
+
     }
-
-}
