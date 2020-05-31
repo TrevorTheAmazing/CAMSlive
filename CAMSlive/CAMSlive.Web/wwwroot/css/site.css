@@ -27,12 +27,12 @@ app {
     display: flex;
     align-items: center;
     z-index: 1;
+    justify-content: space-between;
 }
 
 .main {
     flex: 1;
 }
-
 
     .main .top-row {
         justify-content: flex-end;
@@ -49,9 +49,7 @@ app {
         }
 
 .sidebar {
-    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #174c81 17%, #d8e7ef 70%);*/
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #174c81 37%, #d8e7ef 99%);
-    /*background-image: linear-gradient(145deg, rgba(255, 255, 255, 1) 15%, rgba(146, 250, 255, 0.4) 63%, rgba(44, 131, 241, 0.9) 90%);*/
     z-index: 1;
 }
 
@@ -94,7 +92,6 @@ app {
             box-sizing: border-box;
             color: #fff;
             display: block;
-            /*margin: 10px;*/
             padding: 25px;
             text-decoration: none;
             transition: all .5s;
@@ -118,6 +115,10 @@ app {
                     box-shadow: #d8e7ef 5px 5px 15px, inset #d8e7ef -1px -1px 10px;
                     background-position: right center;
                 }
+
+.sidebar .navbar-toggler {
+    /*background-color: orange;*/
+}
 
 
 #brand {
@@ -244,12 +245,12 @@ app {
 
     .main .top-row a, .main .top-row .btn-link {
         margin-left: 0;
+        background-color: green;
     }
 
     .sidebar {
-        /*background-image: linear-gradient(145deg, rgba(255, 255, 255, 1) 15%, rgba(146, 250, 255, 0.4) 63%, rgba(44, 131, 241, 0.9) 90%);*/
-        /*background-image: linear-gradient(90deg, #d8e7ef 0%, #174c81 67%, rgb(5, 39, 103) 99%);*/
-        background-color: brown;
+        background-image: none;
+        background-color: rgb(5, 39, 103);
         display: inline-block;
         z-index: 1;
     }
@@ -262,6 +263,7 @@ app {
         background-color: rgba(155, 155, 155, 0.3);
         position: fixed; 
         right: 20px;
+        /*background-color: brown;*/
     }
 
     .sidebar .nav {
@@ -286,10 +288,20 @@ app {
         }
 
     body > app > div.sidebar > div.top-row.pl-4.navbar-dark > button {
-        background-color: rgba(155, 155, 155, 0.3);
-        position: fixed;
+        /*background-color: rgba(155, 155, 155, 0.3);*/
+        /*position: fixed;*/
+        position: relative;
         right: 20px;
+        /*background-color: pink;*/
     }
+
+        body > app > div.sidebar > div.top-row.pl-4.navbar-dark > button > span {
+            /*background-color: lime;*/
+        }
+
+/*        body > app > div.sidebar > div.top-row.pl-4.navbar-dark > button > span {
+            position: fixed;
+        }*/
 }
 
 @media (min-width: 768px) {
