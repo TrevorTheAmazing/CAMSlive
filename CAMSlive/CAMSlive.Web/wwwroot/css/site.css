@@ -3,6 +3,7 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -86,7 +87,14 @@ app {
 
         .sidebar .nav-item a {
             background-color: transparent;
-            background-image: linear-gradient(to right,#02aab0 0%,#00cdac 51%,#02aab0 100%);
+            /*aqua*/
+            /*background-image: linear-gradient(to right,#02aab0 0%,#00cdac 51%,#02aab0 100%);*/
+            /*blue*/
+            /*background-image: linear-gradient(to right,#1fa2ff 0%,#12d8fa 51%,#1fa2ff 100%);*/
+            /*seafoam*/
+            /*background-image: linear-gradient(to right,#4cb8c4 0%,#3cd3ad 51%,#4cb8c4 100%);*/
+            /*orange*/
+            background-image: linear-gradient(to right,#ff512f 0%,#f09819 51%,#ff512f 100%);
             background-size: 200%;
             border-radius: 10px;
             box-sizing: border-box;
@@ -388,20 +396,20 @@ a, .btn-link {
 }
 
 .btn .btn-lg {
-    color: #fff;
+    /*color: #fff;*/
     background-color: #ff6633;
     border-color: #1861ac;
 }
 
-a.btn-grad {
+/*a.btn-grad {
     background-color: transparent;
     background-image: linear-gradient(to right,#fe8c00 0%,#f83600 51%,#fe8c00 100%);
     background-size: 200%;
     border-radius: 10px;
     box-shadow: #eee 0 0 20px;
-    box-sizing: border-box;
-    color: #fff;
-    display: block;
+    box-sizing: border-box;*/
+    /*color: #fff;*/    
+    /*display: block;
     margin: 10px;
     padding: 30px;
     text-align: center;
@@ -414,6 +422,42 @@ a.btn-grad {
     a.btn-grad:hover {
         background-position: right center;
         outline: 0;
+    }*/
+
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d8e7ef;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #15416e, #ff6633);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    box-shadow: 50px -100vh 50px 90vh #15416e;
+}
+
+.scrollToTop a {
+    position: fixed;
+    color: #ff6633;
+    width: 3em;
+    height: 3em;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+}
+
+    .scrollToTop a svg {
+        background-color: transparent;
     }
 
-
+        .scrollToTop a svg:hover {
+            color: #15416e;
+            transition: 0.2s;
+        }
