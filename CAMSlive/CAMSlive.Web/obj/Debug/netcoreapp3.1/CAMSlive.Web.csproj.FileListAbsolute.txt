@@ -279,3 +279,5 @@ C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSl
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\CAMSlive.Web.dll
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\CAMSlive.Web.pdb
 C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\CAMSlive.Web.genruntimeconfig.cache
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\Loader.razor.g.cs
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Web\obj\Debug\netcoreapp3.1\Razor\Shared\Loader.razor.g.cs
