@@ -4,11 +4,12 @@
 @if ((ChartOptions.IndexOf("bubble") > -1) || (ChartOptions.IndexOf("bar") > -1) || (ChartOptions.IndexOf("area") > -1))
 {
 
-
     if (ChartOptions.IndexOf("bar") > -1)
     {
-        <div class="card">
-            <div class="card-header">@ChartTitle</div>
+        <div class="card" @onmouseover="ClearNotificationOnHover">
+            <div class="card-header">@ChartTitle 
+                <span class="badge badge-danger" style="display: inline-flex; justify-content: flex-end; @NotificationStyle">Update!</span>
+            </div>
             <div class="card-body">
                 <div id="@ChartId"></div>
             </div>
@@ -17,24 +18,26 @@
             </div>
         </div>
     }
-
     else
     {
-        <div class="card">
-            <div class="card-header">@ChartTitle</div>
+        <div class="card" @onmouseover="ClearNotificationOnHover">
+            <div class="card-header">@ChartTitle
+                <span class="badge badge-danger" style="display: inline-flex; justify-content: flex-end; @NotificationStyle">Update!</span>
+            </div>
             <div class="card-body">
                 <div id="@ChartId"></div>
             </div>
         </div>
     }
-
 }
 else
 {
     if (ChartOptions.IndexOf("radialBar") > -1)
     {
-        <div class="card split">
-            <div class="card-header">@ChartTitle</div>
+        <div class="card split" @onmouseover="ClearNotificationOnHover">
+            <div class="card-header">@ChartTitle
+                <span class="badge badge-danger" style="display: inline-flex; justify-content: flex-end; @NotificationStyle">Update!</span>
+            </div>
             <div class="card-body">
                 <div id="@ChartId"></div>
             </div>
@@ -45,8 +48,10 @@ else
     }
     else
     {
-        <div class="card split">
-            <div class="card-header">@ChartTitle</div>
+        <div class="card split" @onmouseover="ClearNotificationOnHover">
+            <div class="card-header">@ChartTitle
+                <span class="badge badge-danger" style="display: inline-flex; justify-content: flex-end; @NotificationStyle">Update!</span>
+            </div>
             <div class="card-body">
                 <div id="@ChartId"></div>
             </div>

@@ -386,33 +386,10 @@ a, .btn-link {
 }
 
 .btn .btn-lg {
-    /*color: #fff;*/
     background-color: #ff6633;
     border-color: #1861ac;
 }
 
-/*a.btn-grad {
-    background-color: transparent;
-    background-image: linear-gradient(to right,#fe8c00 0%,#f83600 51%,#fe8c00 100%);
-    background-size: 200%;
-    border-radius: 10px;
-    box-shadow: #eee 0 0 20px;
-    box-sizing: border-box;*/
-    /*color: #fff;*/    
-    /*display: block;
-    margin: 10px;
-    padding: 30px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .5s ease 0s;
-    width: 200px;
-}
-
-    a.btn-grad:hover {
-        background-position: right center;
-        outline: 0;
-    }*/
 
 
 ::-webkit-scrollbar {
@@ -453,11 +430,6 @@ a, .btn-link {
         }
 
 
-/*#timecards {
-    justify-content: center;
-   
-}*/
-
 #timecards > div.loader {
     position: relative;
     display: flex;
@@ -466,7 +438,7 @@ a, .btn-link {
 
     #timecards > div.loader span {
         width: 50px;
-        height: 300px;
+        height: 200px;
         margin: 0 20px;
         background: #d8e7ef;
         animation: animateLoader 1.4s linear infinite;
@@ -519,3 +491,4 @@ a, .btn-link {
         transform: translateX(50px) scale(1);
     }
 }
+

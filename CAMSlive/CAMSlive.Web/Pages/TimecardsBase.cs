@@ -48,7 +48,7 @@ namespace CAMSlive.Web.Pages
                 chartToUpdate = await ChartService.GetChart(args.NewChart.ChartId);
                 chartToUpdate.ChartOptions = args.NewChart.ChartOptions;
                 await InvokeAsync(() =>
-                {
+                {                   
                     ChartService.UpdateChart(chartToUpdate.ChartId, chartToUpdate.ChartOptions);
                 });
             }
