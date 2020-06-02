@@ -271,7 +271,6 @@ app {
         background-color: rgba(155, 155, 155, 0.3);
         position: fixed; 
         right: 20px;
-        /*background-color: brown;*/
     }
 
     .sidebar .nav {
@@ -279,12 +278,11 @@ app {
     }
 
     .sidebar .nav-item a {
-        color: #2f4862;
+        color: #fff;
     }
 
         .sidebar .nav-item a:hover {
             background-color: rgba(255,255,255,0.25);
-            color: #15416e;
         }
 
         .sidebar .nav-item a.active {
@@ -300,16 +298,8 @@ app {
         /*position: fixed;*/
         position: relative;
         right: 20px;
-        /*background-color: pink;*/
     }
 
-        body > app > div.sidebar > div.top-row.pl-4.navbar-dark > button > span {
-            /*background-color: lime;*/
-        }
-
-/*        body > app > div.sidebar > div.top-row.pl-4.navbar-dark > button > span {
-            position: fixed;
-        }*/
 }
 
 @media (min-width: 768px) {

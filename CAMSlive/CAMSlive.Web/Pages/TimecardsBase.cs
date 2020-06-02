@@ -33,7 +33,9 @@ namespace CAMSlive.Web.Pages
             {
                 foreach (var chart in TimecardCharts)
                 {
+                    
                     await ChartService.RenderChart(chart.ChartId, chart, true);
+                    
                 }                
             }
         }
