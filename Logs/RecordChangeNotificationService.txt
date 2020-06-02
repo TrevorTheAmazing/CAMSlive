@@ -202,3 +202,8 @@
 2020-06-01 18:21:11.599 -07:00 [INF] Starting RecordChangeNotificationService
 2020-06-01 18:21:27.903 -07:00 [INF] Starting RecordChangeNotificationService
 2020-06-01 18:22:25.175 -07:00 [INF] Starting RecordChangeNotificationService
+2020-06-01 18:32:43.307 -07:00 [INF] Starting RecordChangeNotificationService
+2020-06-01 18:34:27.224 -07:00 [INF] Starting RecordChangeNotificationService
+2020-06-01 18:38:37.416 -07:00 [INF] Starting RecordChangeNotificationService
+2020-06-01 18:49:54.844 -07:00 [INF] Starting RecordChangeNotificationService
+2020-06-01 18:52:52.451 -07:00 [INF] Starting RecordChangeNotificationService
