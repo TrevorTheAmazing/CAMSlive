@@ -1,0 +1,9 @@
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\bin\Release\netstandard2.0\CAMSlive.Models.deps.json
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\bin\Release\netstandard2.0\CAMSlive.Models.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\bin\Release\netstandard2.0\CAMSlive.Models.pdb
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\obj\Release\netstandard2.0\CAMSlive.Models.csprojAssemblyReference.cache
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\obj\Release\netstandard2.0\CAMSlive.Models.AssemblyInfoInputs.cache
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\obj\Release\netstandard2.0\CAMSlive.Models.AssemblyInfo.cs
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\obj\Release\netstandard2.0\CAMSlive.Models.csproj.CoreCompileInputs.cache
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\obj\Release\netstandard2.0\CAMSlive.Models.dll
+C:\Users\Trevor\Desktop\fresh\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive\CAMSlive.Models\obj\Release\netstandard2.0\CAMSlive.Models.pdb

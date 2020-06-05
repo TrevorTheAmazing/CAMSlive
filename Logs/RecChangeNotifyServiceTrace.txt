@@ -1,132 +1,40 @@
-2020-06-02 01:00:22.615 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Insert created.
-2020-06-02 01:00:22.618 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update created.
-2020-06-02 01:00:22.618 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Delete created.
-2020-06-02 01:00:22.619 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId created.
-2020-06-02 01:00:22.619 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old created.
-2020-06-02 01:00:22.619 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions created.
-2020-06-02 01:00:22.620 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old created.
-2020-06-02 01:00:22.620 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage created.
-2020-06-02 01:00:22.622 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Contract dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203 created.
-2020-06-02 01:00:22.629 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Queue dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203_Receiver created.
-2020-06-02 01:00:22.633 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Queue dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203_Sender created.
-2020-06-02 01:00:22.634 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Service broker dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203_Sender created.
-2020-06-02 01:00:22.635 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Service broker dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203_Receiver created.
-2020-06-02 01:00:22.652 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Procedure dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203 created.
-2020-06-02 01:00:22.654 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Conversation with handler 43aa851b-a7a4-ea11-9195-e8a40fb094aa started.
-2020-06-02 01:00:22.682 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Trigger dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203 created.
-2020-06-02 01:00:22.683 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Watch dog started.
-2020-06-02 01:00:22.685 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]All OK! Database objects created with naming dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203.
-2020-06-02 01:00:22.691 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Waiting for receiving TimecardCharts's records change notifications.
-2020-06-02 01:00:22.701 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Get in WaitForNotifications.
-2020-06-02 01:00:22.704 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Connection opened.
-2020-06-02 01:00:22.704 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:00:39.332 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:00:39.332 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:00:39.332 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:00:39.332 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:00:39.333 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:00:39.333 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:00:39.334 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:00:39.406 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:00:39.407 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:02:39.453 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:03:42.567 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:03:42.569 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:03:42.569 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:03:42.570 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:03:42.570 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:03:42.570 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:03:42.570 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:03:42.606 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:03:42.606 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:04:11.875 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:04:11.890 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:04:11.890 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:04:26.584 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:04:26.623 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:04:26.623 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:04:58.474 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:04:58.474 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:04:58.481 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:04:58.481 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:04:58.481 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:04:58.482 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:04:58.482 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:04:58.501 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:04:58.502 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:06:58.514 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:08:58.520 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:10:39.692 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:10:39.709 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:10:39.709 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:12:39.754 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:14:39.777 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:15:34.524 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:15:34.524 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:15:34.525 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:15:34.525 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:15:34.525 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:15:34.525 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:15:34.525 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:15:34.541 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:15:34.541 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:17:34.546 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:19:34.561 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:21:34.594 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:23:34.605 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:25:34.615 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:27:34.624 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:29:34.656 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:31:34.755 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:33:34.863 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:35:34.903 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:37:34.935 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:39:34.969 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:41:34.982 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:43:35.080 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:45:35.167 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:47:35.199 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:49:35.230 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:51:07.133 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 01:51:07.133 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 01:51:07.134 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 01:51:07.134 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 01:51:07.134 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 01:51:07.134 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 01:51:07.134 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 01:51:07.178 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 01:51:07.179 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:53:07.185 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:55:07.211 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:57:07.230 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 01:59:07.269 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 02:01:07.310 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 02:03:07.352 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 02:05:07.391 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
-2020-06-02 02:06:26.942 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/StartMessage/Update.
-2020-06-02 02:06:26.943 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId.
-2020-06-02 02:06:26.943 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartId/old.
-2020-06-02 02:06:26.943 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions.
-2020-06-02 02:06:26.943 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/ChartOptions/old.
-2020-06-02 02:06:26.943 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_0e4f35bb-8437-4294-a59a-de5185ea1203/EndMessage.
-2020-06-02 02:06:26.943 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
-2020-06-02 02:06:26.952 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
-2020-06-02 02:06:26.952 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
+2020-06-04 17:48:04.039 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/StartMessage/Insert created.
+2020-06-04 17:48:04.043 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/StartMessage/Update created.
+2020-06-04 17:48:04.043 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/StartMessage/Delete created.
+2020-06-04 17:48:04.044 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartId created.
+2020-06-04 17:48:04.044 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartId/old created.
+2020-06-04 17:48:04.044 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartOptions created.
+2020-06-04 17:48:04.045 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartOptions/old created.
+2020-06-04 17:48:04.045 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/EndMessage created.
+2020-06-04 17:48:04.047 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Contract dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0 created.
+2020-06-04 17:48:04.055 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Queue dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0_Receiver created.
+2020-06-04 17:48:04.056 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Queue dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0_Sender created.
+2020-06-04 17:48:04.057 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Service broker dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0_Sender created.
+2020-06-04 17:48:04.058 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Service broker dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0_Receiver created.
+2020-06-04 17:48:04.112 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Procedure dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0 created.
+2020-06-04 17:48:04.137 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Conversation with handler 776e3236-c6a6-ea11-919e-00155da3f670 started.
+2020-06-04 17:48:04.190 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Trigger dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0 created.
+2020-06-04 17:48:04.192 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Watch dog started.
+2020-06-04 17:48:04.194 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]All OK! Database objects created with naming dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0.
+2020-06-04 17:48:04.195 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Waiting for receiving TimecardCharts's records change notifications.
+2020-06-04 17:48:04.204 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Get in WaitForNotifications.
+2020-06-04 17:48:04.206 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Connection opened.
+2020-06-04 17:48:04.207 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
+2020-06-04 17:50:02.261 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/StartMessage/Update.
+2020-06-04 17:50:02.262 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartId.
+2020-06-04 17:50:02.262 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartId/old.
+2020-06-04 17:50:02.262 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartOptions.
+2020-06-04 17:50:02.262 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartOptions/old.
+2020-06-04 17:50:02.262 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/EndMessage.
+2020-06-04 17:50:02.263 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
+2020-06-04 17:50:02.365 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
+2020-06-04 17:50:02.365 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
+2020-06-04 17:50:49.286 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/StartMessage/Update.
+2020-06-04 17:50:49.286 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartId.
+2020-06-04 17:50:49.286 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartId/old.
+2020-06-04 17:50:49.286 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartOptions.
+2020-06-04 17:50:49.286 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/ChartOptions/old.
+2020-06-04 17:50:49.287 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Received message type = dbo_TimecardCharts_2e9141f5-5dc1-43f2-997d-a39df93bb0c0/EndMessage.
+2020-06-04 17:50:49.287 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message ready to be notified.
+2020-06-04 17:50:49.321 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Message notified.
+2020-06-04 17:50:49.321 [Server: (localdb)\MSSQLLocalDB Database: CAMSlive]Executing WAITFOR command.
